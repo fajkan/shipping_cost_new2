@@ -14,7 +14,31 @@
             <h2>Add form</h2>
         </div>
         <div class="card-body">
+            <form>
+                <div class="col-sm-12">
+                    <div class="row">
+                        <div class="col-sm-8 form-group">
+                            <label>Box Name</label>
+                            <input type="text" placeholder="Enter Box name here" class="form-control">
+                        </div>
 
+                        <div class="form-check">
+                            <label><input type="checkbox" class="radio" th:value="1" name="letter" />Letter</ > </label>
+                            <label><input type="checkbox" class="radio" th:value="1" name="package" />Package</ ></label>
+                        </div>
+
+                        <div class="col-sm-8 form-group">
+                            <label>Weight</label>
+                            <input type="text" placeholder="Enter weight here" class="form-control">
+                        </div>
+
+                        <div class="col-sm-8 form-group">
+                            <label></label>
+
+                        </div>
+                    </div>
+                </div>
+            </form>
         </div>
     </div>
 
